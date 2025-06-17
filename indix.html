@@ -2,10 +2,18 @@
 <head>
   <meta charset="utf-8">
   <title>最小公倍数及び最大公約数計算システム</title>
+  <script>
+    function action(){
+      const a = document.getElementById("num1");
+      const b = document.getElementById("num2");
+    }
+  </script>
 </head>
 <body>
   <h1>最小公倍数及び最大公約数計算システム</h1>
   <input type="number" id="num1">
   <input type="number" id="num2">
+  <button onclick="action()">計算実行</button>
+  <button onclick="reset()">リセット</button>
   <p id="answer">計算待ち</p>
 </body>
